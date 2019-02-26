@@ -60,7 +60,7 @@ a.next{top:350px;}
 #page2 .rtCont{flex:1 1 auto;font-size:14px;}
 #page2 .rtCont p{padding:2px;letter-spacing: 1px;}
 #page2 .pInfo{ position:absolute;transition:0.2s;transform-origin:bottom;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10);
-	box-sizing: border-box; }
+	box-sizing: border-box; width:30%; }
 #page2 .ltCont-inner{width: 70%;}
 #page2 .pInfo-title{padding: 15px; font-size: 18px;box-sizing: border-box;border-bottom: 1px solid #ddd;color:#000;}
 #page2 .pInfo:nth-of-type(1){z-index:2;background:#fff; }
@@ -75,7 +75,7 @@ a.next{top:350px;}
 #page2 .txtAlignLeft{text-align:right}
 #page2 h1{cursor:pointer;font-weight:bold}
 #page2 h2{padding: 10px}
-#page2 .skillList{width:100%; height:auto !important;height:120px;min-height:120px;}
+#page2 .skillList{width:100%; height:auto !important;height:60px;min-height:60px;}
 #page2 .skillList li{width:64px;padding:6px;text-align:center;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10);float:left;margin:5px;transition:0.15s ease-out;padding-bottom:10px;}
 #page2 .skillList li:hover{transform:scale(1.5); background:#13df80;}
 #page2 .skill-cont p{padding:6px;}
@@ -92,13 +92,13 @@ a.next{top:350px;}
 /*项目*/
 #page4{background: #f8f8f8}
 #page4 .project-box{width: 98%; margin:10px auto;display: flex;flex-direction: row;font-size: 12px;  background: #fff}
-#page4 .project-item{flex:1 1 25%;padding:10px;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10);margin-right: 10px;position: relative;transform:scale(0.97);
-	transition:all 0.2s ease-out;}
+#page4 .project-item{flex:1 1 25%;padding:50px;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10);margin-right: 10px;position: relative;transform:scale(0.97);
+	transition:all 0.2s ease-out; }
 #page4 .project-item:hover{background:#fff;transform:scale(1)}
 #page4 .project-inner p{padding:3px;line-height: 22px}
-#page4  span{display: inline-block;margin-right: 10px;font-weight: bold}
+#page4  span{display: inline-block;margin-right: 10px;font-weight: bold;font-size: 14px}
 #page4 .purple{color: #7A5ACF}
-#page4 .em{font:12px bold;}
+#page4 .em{font:14px bold;}
 #page4 .first-letter{display: inline-block;margin-right:15px;}
 #page4 .title-tag{position:absolute;right:4px;top:0;font-size: 30px;color:#5CD17C; }
 
